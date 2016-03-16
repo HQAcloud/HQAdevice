@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Connected Devices</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div id="header">
+	<div id="logo"></div>
+	<a class="headerButtons" href="">Device Settings</a>
+	<a class="headerButtons" href="">App Configurations</a>
+</div>
+
+<div class="clr"></div>
+
+<div id="subHeader">
+	<p>01:23:45:67:89:AB &nbsp; &nbsp; &nbsp; IP: 192.168.1.12</p>
+	<h6>alexk &nbsp; &nbsp; | &nbsp; &nbsp; <a href="">Logout</a></h6>
+</div>
+
+<div class="clr"></div>
+
+<div id="navigation">
+	<ul>
+		<li><a href="index.html">Connected Devices</a></li>
+		<li><a href="tagdatabase.html">Tag Database</a></li>
+		<li><a href="datacollection.html">Data Collection</a></li>
+		<li><a href="">Web Views</a></li>
+		<li><a href="">Alarms</a></li>
+	</ul>
+</div>
+
+<div class="clr"></div>
+
+ <div id="tableWrap">
+
+	<div id="table">
+
+		<div id="tableHeader">
+			<h1 style="width: 20px">#</h1>
+			<h1 style="width: 90px">Name</h1>	
+			<h1 style="width: 90px">IP Adress</h1>	
+			<h1 style="width: 95px">Subnet Mask</h1>	
+			<h1 style="width: 110px">Protocol</h1>	
+			<h1 style="width: 30px">Port</h1>	
+			<h1 style="width: 40px">Enable</h1>	
+			<h1 style="width: 60px">Status</h1>	
+		</div>
+
+		<div class="clr"></div>
+
+		<div class="tableRow">
+			<h2 style="width: 20px">1</h2>
+			<h2 style="width: 90px">Device #1</h2>
+			<h2 style="width: 90px">192.168.1.124</h2>
+			<h2 style="width: 95px">192.168.1.124</h2>
+			<h2 style="width: 110px">
+				<select name="protocol">
+					<option name="ModbusTCP">Modbus TCP</option>
+				</select>
+			</h2>
+			<h2 style="width: 30px">502</h2>
+			<h2 style="width: 40px">
+				<input name="check" type="checkbox" checked="true" />
+			</h2>
+			<h2 style="width: 60px" class="online">Online</h2>
+		</div>
+
+		<div class="clr"></div>
+
+		<div class="tableRow">
+			<h2 style="width: 20px">2</h2>
+			<h2 style="width: 90px">Device #2</h2>
+			<h2 style="width: 90px">192.168.1.123</h2>
+			<h2 style="width: 95px">192.168.1.123</h2>
+			<h2 style="width: 110px">
+				<select name="protocol">
+					<option name="ModbusTCP">Modbus TCP</option>
+				</select>
+			</h2>
+			<h2 style="width: 30px">502</h2>
+			<h2 style="width: 40px">
+				<input name="check" type="checkbox" />
+			</h2>
+			<h2 style="width: 60px" class="disabled">Disabled</h2>
+		</div>
+
+		<div class="clr"></div>
+		
+		<div class="tableRow">
+			<h2 style="width: 20px">3</h2>
+			<h2 style="width: 90px">Device #3</h2>
+			<h2 style="width: 90px">192.168.1.10</h2>
+			<h2 style="width: 95px">192.168.1.10</h2>
+			<h2 style="width: 110px">
+				<select name="protocol">
+					<option name="ModbusTCP">Modbus TCP</option>
+				</select>
+			</h2>
+			<h2 style="width: 30px">502</h2>
+			<h2 style="width: 40px">
+				<input name="check" type="checkbox" checked="true" />
+			</h2>
+			<h2 style="width: 60px" class="offline">Offline</h2>
+		</div>
+
+		<div class="clr"></div>
+
+		<div class="tableRow">
+			<h2 style="width: 20px">4</h2>
+			<h2 style="width: 90px">Device #4</h2>
+			<h2 style="width: 90px">192.168.2.13</h2>
+			<h2 style="width: 95px">192.168.2.13</h2>
+			<h2 style="width: 110px">
+				<select name="protocol">
+					<option name="ModbusTCP">Modbus TCP</option>
+				</select>
+			</h2>
+			<h2 style="width: 30px">502</h2>
+			<h2 style="width: 40px">
+				<input name="check" type="checkbox" checked="true" />
+			</h2>
+			<h2 style="width: 60px" class="online">Online</h2>
+		</div>
+
+		<div class="clr"></div>
+
+		<div class="tableRow">
+			<h2 style="width: 20px">5</h2>
+			<h2 style="width: 90px">Device #5</h2>
+			<h2 style="width: 90px">192.168.1.15</h2>
+			<h2 style="width: 95px">192.168.1.15</h2>
+			<h2 style="width: 110px">
+				<select name="protocol">
+					<option name="ModbusTCP">Modbus TCP</option>
+				</select>
+			</h2>
+			<h2 style="width: 30px">502</h2>
+			<h2 style="width: 40px">
+				<input name="check" type="checkbox" />
+			</h2>
+			<h2 style="width: 60px" class="disabled">Disabled</h2>
+		</div>
+
+		<div class="clr"></div>
+
+		<div class="tableRow">
+			<h2 style="width: 20px">6</h2>
+			<h2 style="width: 90px">Device #6</h2>
+			<h2 style="width: 90px">192.168.1.34</h2>
+			<h2 style="width: 95px">192.168.1.34</h2>
+			<h2 style="width: 110px">
+				<select name="protocol">
+					<option name="ModbusTCP">Modbus TCP</option>
+				</select>
+			</h2>
+			<h2 style="width: 30px">502</h2>
+			<h2 style="width: 40px">
+				<input name="check" type="checkbox" checked="true" />
+			</h2>
+			<h2 style="width: 60px" class="online">Online</h2>
+		</div>
+
+		<div class="clr"></div>
+
+	</div>
+
+</div>
+
+<div id="bottomButtons">
+	<a href="" class="button">New Device</a>
+	<a href="" class="button">Edit</a>
+	<a href="" class="button">Monitor Values</a>
+	<div class="clr"></div>
+</div>
+
+</body>
+</html>
